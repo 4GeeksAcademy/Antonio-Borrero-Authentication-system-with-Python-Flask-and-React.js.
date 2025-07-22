@@ -18,7 +18,7 @@ export const Register = () => {
             "password": password
         }
 
-        await fetch("https://expert-doodle-7v5q44p5pvq9hpqwx-3001.app.github.dev/api/register", {
+        await fetch("https://expert-doodle-7v5q44p5pvq9hpqwx-3001.app.github.dev/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
